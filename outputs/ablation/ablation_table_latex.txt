@@ -1,0 +1,14 @@
+\begin{table}[t]
+\caption{Ablation study of FallDetectionNet components. Values are reported as mean $\pm$ standard deviation over sequence-level folds.}
+\label{tab:ablation}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Configuration & AUC-ROC & Sensitivity & Specificity & F1-score \\
+\midrule
+full-b & 0.9643 $\pm$ 0.0121 & 0.8216 $\pm$ 0.0612 & 0.9322 $\pm$ 0.0287 & 0.7483 $\pm$ 0.0759 \\
+no-attention-b & 0.9422 $\pm$ 0.0440 & 0.8544 $\pm$ 0.1201 & 0.8695 $\pm$ 0.1064 & 0.6813 $\pm$ 0.1373 \\
+single-scale-b & 0.9534 $\pm$ 0.0201 & 0.8716 $\pm$ 0.0928 & 0.8851 $\pm$ 0.0605 & 0.7028 $\pm$ 0.0987 \\
+scratch-b & 0.9413 $\pm$ 0.0309 & 0.7998 $\pm$ 0.0553 & 0.9070 $\pm$ 0.0617 & 0.6962 $\pm$ 0.1003 \\
+\botrule
+\end{tabular}
+\end{table}
